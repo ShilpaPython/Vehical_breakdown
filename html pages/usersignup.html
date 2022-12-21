@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP-CUSTOMER</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/usersignup.css">
+</head>
+<body>
+    <section>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-6 no-mobile">
+                <img src="images/wecare.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <!-- customer heading -->
+                <div class="row pt-5">
+                    <div class="col-md-12 sign-up-text">
+                        Sign Up - Customer
+                    </div>
+                </div>
+                <!-- logo-image -->
+                <div class="row pt-3">
+                    <div class="col-md-12 text-center">
+                        <img src="images/logo2.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <!-- sign-up-customer-form -->
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-12 ps-5">
+                            <form action="">
+                                <input type="text" class="form-control form-control-sm mt-1" placeholder="Enter Name" name="fname">
+                                <!-- <input type="text" class="form-control form-control-sm mt-3" placeholder="Enter Last Name" name="lname"> -->
+                                <input type="text" class="form-control form-control-sm mt-3" placeholder="Enter Email Address" name="address">
+                                <input type="text" class="form-control form-control-sm mt-3" placeholder="Enter Username" name="username">
+                                <input type="text" class="form-control form-control-sm mt-3" placeholder="Enter Password" name="password">
+                                <input type="text" class="form-control form-control-sm mt-3" placeholder="Enter Confirm Password" name="cnfpassword">
+                                <div class="d-grid pt-3">
+                                    <button type="submit" class="btn btn-style btn-block">Signup</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- already have an account -->
+                <div class="row pt-3">
+                    <div class="col-md-12 dont-have text-center">
+                        Already have an account? <br>
+                        <a href="#" class="text-decoration-none text-primary">Sign In here</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-1"></div>
+        </div>
+    </section>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>   
+</body>
+</html>

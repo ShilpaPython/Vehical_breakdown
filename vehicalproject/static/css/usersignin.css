@@ -1,0 +1,110 @@
+*{
+    margin: 0rem;
+    padding:0rem;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    /* overflow: auto hidden visible scroll, */
+}
+.sign-up-text{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.1875rem;
+    text-align: center;
+    color: #243443;
+}
+.btn-style{
+    background-color: #4F9CB9;
+    color: white;
+    
+}
+.btn-style:hover{
+    background-color: #4F9CB9; 
+    color: white;
+}
+
+.dont-have{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 0.875rem;
+line-height: 1.0625rem;
+/* identical to box height */
+text-align: center;
+color: #243443;
+}
+.signup-here{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 0.875rem;
+line-height: 1.0625rem;
+text-align: center;
+color: #243443;
+text-decoration: none;
+}
+.a .textsignup{
+    color: #243443;
+    text-decoration: none;
+}
+
+
+/* Start Mobile view */
+
+@media all and (min-width: 577px)
+{
+    
+}
+
+
+@media all and (max-width: 576px)
+{
+   .no-mobile{
+    display: none;
+   } 
+}
+
+@media (min-width: 577px)
+{
+    html{
+        font-size: 40%;
+    }
+}
+
+@media (min-width: 768px)
+{
+    html{
+        font-size: 45%;
+    }
+}
+
+@media (min-width: 992px)
+{
+    html{
+        font-size: 60%;
+    }
+}
+
+
+@media (min-width: 1200px)
+{
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 1920px)
+{
+    html{
+        font-size: 100%;
+    }
+}
+
+/* End Mobile Views */
+
+
+    
+    
